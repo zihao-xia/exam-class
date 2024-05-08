@@ -1,7 +1,5 @@
 function ExamHistory() {
-  return (
-    <h1>ExamHistory</h1>
-  )
+  return <h1>ExamHistory</h1>
 }
 
-export default ExamHistory;
+export default ExamHistory

@@ -1,7 +1,5 @@
 function SubjectManage() {
-  return (
-    <h1>SubjectManage</h1>
-  )
+  return <h1>SubjectManage</h1>
 }
 
-export default SubjectManage;
+export default SubjectManage

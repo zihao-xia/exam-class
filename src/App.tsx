@@ -1,20 +1,20 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
-import Login from '@/pages/login';
-import AdminManage from './pages/admin_manage';
-import CorrectExam from './pages/correct_exam';
-import CorrectExamList from './pages/correct_exam_list';
-import Exam from './pages/exam';
-import ExamHistory from './pages/exam_history';
-import ExamSelect from './pages/exam_select';
-import PersonInfo from './pages/person_info';
-import ReadExam from './pages/read_exam';
-import StudentManage from './pages/student_manage';
-import SubjectAdd from './pages/subject_add';
-import SubjectManage from './pages/subject_manage';
+import { Routes, Route, Navigate } from 'react-router-dom'
+import Login from '@/pages/login'
+import AdminManage from './pages/admin_manage'
+import CorrectExam from './pages/correct_exam'
+import CorrectExamList from './pages/correct_exam_list'
+import Exam from './pages/exam'
+import ExamHistory from './pages/exam_history'
+import ExamSelect from './pages/exam_select'
+import PersonInfo from './pages/person_info'
+import ReadExam from './pages/read_exam'
+import StudentManage from './pages/student_manage'
+import SubjectAdd from './pages/subject_add'
+import SubjectManage from './pages/subject_manage'
 
-import Layout from './common_components/layout';
-import './App.scss';
-import { routersData } from './config';
+import Layout from './common_components/layout'
+import './App.scss'
+import { routersData } from './config'
 
 function App() {
   return (
@@ -47,7 +47,7 @@ function App() {
         <Route path={routersData.subject_manage.path} element={<SubjectManage />}></Route>
       </Route>
     </Routes>
-  );
+  )
 }
 
-export default App;
+export default App

@@ -1,7 +1,5 @@
 function SubjectAdd() {
-  return (
-    <h1>SubjectAdd</h1>
-  )
+  return <h1>SubjectAdd</h1>
 }
 
-export default SubjectAdd;
+export default SubjectAdd

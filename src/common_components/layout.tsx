@@ -1,11 +1,10 @@
-import { Outlet } from "react-router-dom";
-import Header from "./header";
-import Menu from "./menu";
-import useShowMenu from "@/hooks/useShowMenu";
-import useShowHeader from "@/hooks/useShowHeader";
+import { Outlet } from 'react-router-dom'
+import Header from './header'
+import Menu from './menu'
+import useShowMenu from '@/hooks/useShowMenu'
+import useShowHeader from '@/hooks/useShowHeader'
 
 function Layout() {
-
   const showMenu = useShowMenu()
   const showHeader = useShowHeader()
 
@@ -27,7 +26,7 @@ function Layout() {
         <Outlet />
       </div>
     </div>
-  );
+  )
 }
 
-export default Layout;
+export default Layout

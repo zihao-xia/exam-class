@@ -1,7 +1,5 @@
 function CorrectExam() {
-  return (
-    <h1>CorrectExam</h1>
-  )
+  return <h1>CorrectExam</h1>
 }
 
-export default CorrectExam;
+export default CorrectExam

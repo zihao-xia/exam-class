@@ -1,7 +1,5 @@
 function ReadExam() {
-  return (
-    <h1>ReadExam</h1>
-  )
+  return <h1>ReadExam</h1>
 }
 
-export default ReadExam;
+export default ReadExam

@@ -1,7 +1,5 @@
 function AdminManage() {
-  return (
-    <h1>AdminManage</h1>
-  )
+  return <h1>AdminManage</h1>
 }
 
-export default AdminManage;
+export default AdminManage

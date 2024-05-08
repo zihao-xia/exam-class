@@ -1,7 +1,5 @@
 function ExamSelect() {
-  return (
-    <h1>ExamSelect</h1>
-  )
+  return <h1>ExamSelect</h1>
 }
 
-export default ExamSelect;
+export default ExamSelect

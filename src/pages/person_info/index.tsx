@@ -1,7 +1,5 @@
 function PersonInfo() {
-  return (
-    <h1>PersonInfo</h1>
-  )
+  return <h1>PersonInfo</h1>
 }
 
-export default PersonInfo;
+export default PersonInfo
